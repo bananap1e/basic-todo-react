@@ -2,6 +2,7 @@ import React from 'react';
 import "../assets/css/TodoItem.css"
 
 class TodoItem extends React.Component {
+
     render () {
 
         const { todo } = this.props;

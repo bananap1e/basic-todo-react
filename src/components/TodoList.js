@@ -2,12 +2,13 @@ import React from 'react';
 import TodoItem from "./TodoItem";
 
 class TodoList extends React.Component {
+
     render () {
 
         const { todos } = this.props;
 
         return (
-            <div>
+            <div className='todo-list-container'>
                 {
                     todos.map((_todo, _index) => {
                         return (
@@ -26,6 +27,7 @@ class TodoList extends React.Component {
     updateTodo = (todo) => {
         this.props.handleUpdateTodo(todo);
     }
+
 }
 
 export default TodoList;

@@ -3,7 +3,7 @@ import React from 'react';
 class Header extends React.Component {
     render () {
         return (
-            <div>Add your todos hooman!</div>
+            <div className='header-container'>Add your todos hooman!</div>
         )
     }
 }
